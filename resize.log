@@ -1,0 +1,30 @@
+{
+    "VolumeModification": {
+        "VolumeId": "vol-03282f8c8087fd3ca",
+        "ModificationState": "modifying",
+        "TargetSize": 30,
+        "TargetIops": 3000,
+        "TargetVolumeType": "gp3",
+        "TargetThroughput": 125,
+        "TargetMultiAttachEnabled": false,
+        "OriginalSize": 10,
+        "OriginalIops": 3000,
+        "OriginalVolumeType": "gp3",
+        "OriginalThroughput": 125,
+        "OriginalMultiAttachEnabled": false,
+        "Progress": 0,
+        "StartTime": "2024-09-27T09:23:42+00:00"
+    }
+}
+CHANGED: partition=1 start=24576 old: size=20946911 end=20971487 new: size=62889951 end=62914527
+meta-data=/dev/nvme0n1p1         isize=512    agcount=3, agsize=1047040 blks
+         =                       sectsz=4096  attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=0
+         =                       reflink=1    bigtime=1 inobtcount=1
+data     =                       bsize=4096   blocks=2618363, imaxpct=25
+         =                       sunit=128    swidth=128 blks
+naming   =version 2              bsize=16384  ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=16384, version=2
+         =                       sectsz=4096  sunit=4 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+data blocks changed from 2618363 to 7861243
